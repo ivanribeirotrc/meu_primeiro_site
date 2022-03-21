@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+
+    <head>
+        <meta charset= "utf-8">
+        <title> Formulario </title>
+    </head>
+
+    <body>
+        <h1> formulario feedback </h1>
+        <p> preencha tudo </p>
+
+        <form method = "post" action= "http://deitel.com">
+            <input type = "hidden" name = "recipient" value= "deitel@deitel.com">
+            <input type = "hidden" name = "subject" value= "feedback form">
+            <input type = "hidden" name = "redirect" value= "main.html"> 
+
+            <!-- Informações escritas pelo usuario com uma barra label -->
+            <p> 
+                <label> <b> Nome: </b> 
+                    <input name = "name" type = "text" size = "25"> <br/><br/>
+                </label> 
+                <label> <b> Sobrenome: </b>
+                    <input name = "name" type = "text" size = "25"> <br/><br/>
+                </label>
+                <label> <b> Endereço: </b>
+                    <input name = "name" type = "text" size = "25"> <br/>
+                </label> 
+            </p>
+
+            <!-- Informações utilizando caixa de texto -->
+            <p>
+                <label> <b> UF: </b>
+                    <select name = "estado">
+                        <option selected> AC </option>
+                        <option> AL </option>
+                        <option> AM </option>
+                        <option> AP </option>
+                        <option> BA </option>
+                        <option> CE </option>
+                        <option> DF </option>
+                        <option> ES </option>
+                        <option> GO </option>
+                        <option> MA </option>
+                        <option> MG </option>
+                        <option> MS </option>
+                        <option> MT </option>
+                        <option> PA </option>
+                        <option> PB </option>
+                        <option> PE </option>
+                        <option> PI </option>
+                        <option> PR </option>
+                        <option> RJ </option>
+                        <option> RN </option>
+                        <option> RO </option>
+                        <option> RR </option>
+                        <option> RS </option>
+                        <option> SC </option>
+                        <option> SE </option>
+                        <option> SP </option>
+                        <option> TO </option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label> <b> Senha: </b>
+                    <input name = "name" type = "password" size = "25">
+                </label> 
+            </p>
+
+            <p>
+                <strong> Genero: </strong> <br/>
+
+                <label> Masculino
+                    <input name = "genero" type = "radio" value = "masculino" checked> <br/>
+                </label>
+                <label> Feminino
+                    <input name = "genero" type = "radio" value = "feminino"> <br/>
+                </label>
+                <label> Não-Binário
+                    <input name = "genero" type = "radio" value = "naobinario"> <br/>
+                </label>
+                <label> Prefiro não dizer
+                    <input name = "genero" type = "radio" value = "prefnaodizer">
+                </label>
+            </p>
+
+            <p>
+                <strong> Voce berra como uma ovelha? </strong> <br/>
+
+                <label> Sim
+                    <input name = "berra" type = "checkbox" value = "sim">
+                </label>
+            </p>
+
+            <p>
+                <strong> Quantos copos de cafe voce toma no dia? </strong> <br/>
+
+                <label> 0 a 2 (Copos)
+                    <input name = "coposdecafe" type = "radio" value = "0a2" checked> <br/>
+                </label>
+                <label> 2 a 4 (Copos)
+                    <input name = "coposdecafe" type = "radio" value = "2a4"> <br/>
+                </label>
+                <label> 4 a 8 (Copos)
+                    <input name = "coposdecafe" type = "radio" value = "4a8"> <br/>
+                </label>
+                <label> 8 a 16 (Copos)
+                    <input name = "coposdecafe" type = "radio" value = "8a16">
+                </label>
+            </p>
+
+            <p>
+                <label> <b> Voce possui um computador proprio? </b>
+                    <select name = "estado">
+                        <option selected> SIM </option>
+                        <option> NAO </option>
+                    </select>
+                </label>
+            </p>
+
+            <p> 
+                <label> <b> Quanto tempo levaria para fazer um formulario em HTML? </b> 
+                    <input name = "name" type = "text" size = "25"> <br/><br/>
+                </label> 
+                <label> <b> Comentarios: </br> 
+                    <textarea name= "comentarios" cols= "36" rows= "4"> Digite aqui </textarea>
+                </label> 
+            </p>
+
+            <p>
+                <input type= "submit" value = "Enviar">
+                <input type= "reset" value = "Limpar">
+            </p>
+        </form>
+    </body>
+</html>
