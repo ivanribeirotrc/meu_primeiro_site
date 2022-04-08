@@ -1,3 +1,7 @@
+        /*                   */
+        /* MENU DE NAVEGAÇÃO */
+        /*                   */
+
 /* Criando contorno/base do menu */ 
 ul {
     list-style-type: none;
@@ -7,7 +11,6 @@ ul {
     background-color: #f1f1f1;
     font-size: 20px;
 }
-
 /* Setando cor padrão (sem passar mouse) */
 li a {
     display: block;
@@ -15,24 +18,41 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
 }
-
 /* Mudando cor (passando mouse por cima) */ 
 li a:hover {
     background-color: #555;
     color: white;
 }
 
+        /*                       */
+        /* FIM MENU DE NAVEGAÇÃO */
+        /*                       */
+
 /* Alinhando com a barra de navegação */
-h1 {
+header h1 {
     position: fixed;
     margin-left: 225px;
     top: 0;
    /* width: 100%; */
 }
-main {
+/* Paragrafo sobre os sites */
+main p {
     margin-left: 225px;
     font-size: 20px;
 }
+/* Imagens dos sites */
+main ul {
+    display: block;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 225px;
+    width: 10%;
+    font-size: 5px;
+}
+
+        /*          */
+        /*  RODA PE */
+        /*          */
 
 /* Roda pe fixo e infos separadas */
 footer {
@@ -66,4 +86,8 @@ footer div img:hover {
     border-radius: 50%;
     /*filter: contrast(30%);*/
 }
+
+        /*             */
+        /* FIM RODA PE */
+        /*             */
 
