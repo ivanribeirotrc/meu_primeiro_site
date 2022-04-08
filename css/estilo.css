@@ -5,6 +5,7 @@ ul {
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
+    font-size: 20px;
 }
 
 /* Setando cor padrão (sem passar mouse) */
@@ -23,16 +24,30 @@ li a:hover {
 
 /* Alinhando com a barra de navegação */
 h1 {
-    margin-left: 200px;
+    position: fixed;
+    margin-left: 225px;
+    top: 0;
+   /* width: 100%; */
+}
+main {
+    margin-left: 225px;
+    font-size: 20px;
 }
 
-main {
-    margin-left: 200px;
-}
+/* Roda pé fixo e no centro do bottom da tela */
 footer {
+    display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    background-color: #555;
+    align-items: center;
+    justify-content: space-between;
 }
+
+footer div {
+    display: inline-block;
+    margin: 0 10px;
+}
+
