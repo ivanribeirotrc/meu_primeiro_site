@@ -43,11 +43,15 @@ footer {
     width: 100%;
     background-color: #555;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: space-around;
 }
 
 footer div {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
     display: inline-block;
     margin: 0 10px;
+    color: #f1f1f1;
 }
 
